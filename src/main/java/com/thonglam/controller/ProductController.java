@@ -2,7 +2,6 @@ package com.thonglam.controller;
 
 
 import com.thonglam.config.AppConstants;
-import com.thonglam.entity.Product;
 import com.thonglam.payload.ProductDTO;
 import com.thonglam.payload.ProductResponse;
 import com.thonglam.service.ProductService;

@@ -8,7 +8,8 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
 
-
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 @Data
@@ -19,7 +20,7 @@ import lombok.ToString;
 public class Product {
 
     @Id
-    @GeneratedValue(strategy =GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long productId;
 
     @NotBlank
@@ -43,6 +44,6 @@ public class Product {
     @JoinColumn(name = "seller_id")
     private User user;
 
-//    @OneToMany(mappedBy = "product", cascade = {CascadeType.PERSIST, CascadeType.MERGE}, fetch = FetchType.EAGER)
-//    private List<CartItem> products = new ArrayList<>();
+    @OneToMany(mappedBy = "product", cascade = {CascadeType.PERSIST, CascadeType.MERGE}, fetch = FetchType.EAGER)
+    private List<CartItem> products = new ArrayList<>();
 }
