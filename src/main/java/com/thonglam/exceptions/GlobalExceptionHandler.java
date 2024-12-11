@@ -1,4 +1,4 @@
-package com.thonglam.exception;
+package com.thonglam.exceptions;
 
 import com.thonglam.payload.APIResponse;
 import org.springframework.http.HttpStatus;

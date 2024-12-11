@@ -4,10 +4,10 @@ package com.thonglam.service;
 import com.thonglam.entity.Address;
 
 import com.thonglam.entity.User;
-import com.thonglam.exception.ResourceNotFoundException;
+import com.thonglam.exceptions.ResourceNotFoundException;
 import com.thonglam.payload.AddressDTO;
-import com.thonglam.repository.AddressRepository;
-import com.thonglam.repository.UserRepository;
+import com.thonglam.repositories.AddressRepository;
+import com.thonglam.repositories.UserRepository;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

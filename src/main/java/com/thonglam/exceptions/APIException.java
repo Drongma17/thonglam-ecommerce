@@ -1,4 +1,4 @@
-package com.thonglam.exception;
+package com.thonglam.exceptions;
 
 
 public class APIException extends RuntimeException{

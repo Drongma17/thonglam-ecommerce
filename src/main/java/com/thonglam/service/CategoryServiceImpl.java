@@ -1,11 +1,11 @@
 package com.thonglam.service;
 
 import com.thonglam.entity.Category;
-import com.thonglam.exception.APIException;
-import com.thonglam.exception.ResourceNotFoundException;
+import com.thonglam.exceptions.APIException;
+import com.thonglam.exceptions.ResourceNotFoundException;
 import com.thonglam.payload.CategoryDTO;
 import com.thonglam.payload.CategoryResponse;
-import com.thonglam.repository.CategoryRepository;
+import com.thonglam.repositories.CategoryRepository;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;

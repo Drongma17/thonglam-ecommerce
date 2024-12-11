@@ -1,4 +1,4 @@
-package com.thonglam.repository;
+package com.thonglam.repositories;
 
 
 import com.thonglam.entity.User;

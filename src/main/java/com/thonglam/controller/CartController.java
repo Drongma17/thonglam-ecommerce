@@ -3,7 +3,7 @@ package com.thonglam.controller;
 
 import com.thonglam.entity.Cart;
 import com.thonglam.payload.CartDTO;
-import com.thonglam.repository.CartRepository;
+import com.thonglam.repositories.CartRepository;
 import com.thonglam.service.CartService;
 import com.thonglam.util.AuthUtil;
 import org.springframework.beans.factory.annotation.Autowired;
